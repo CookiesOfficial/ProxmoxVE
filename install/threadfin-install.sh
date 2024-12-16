@@ -23,7 +23,7 @@ msg_ok "Installed Dependencies"
 
 msg_info "Installing Threadfin"
 mkdir -p /opt/threadfin
-wget -q -O /opt/threadfin/threadfin 'https://github.com/Threadfin/Threadfin/releases/latest/download/Threadfin_linux_amd64'
+wget -q -O /opt/threadfin/threadfin 'https://github.com/Threadfin/Threadfin/releases/download/1.2.21/Threadfin_linux_amd64'
 chmod +x /opt/threadfin/threadfin
 
 msg_ok "Installed Threadfin"
